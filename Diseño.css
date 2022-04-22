@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+	background-image: url('https://images7.alphacoders.com/423/423137.jpg');
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: 'Boogaloo', cursive;
+	color: white;
+    font-size: 100px;
+    text-align: center;
+}
+input{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+    font-size:50px;
+    text-align: center;
+    background-color: coral;
+    border: gray;
+    border-radius: 4px;
+}
+td,tr{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+td.tipocomida{
+    text-align: center;
+}
+img.menu{
+    width: 250px;
+    height: 250PX;
+}
+
+.menu_comida, .menu_bebida{
+    width: 50%;
+    margin:auto;
+    float:left;
+}
+a{
+    font-size: 60px;
+    padding: 15px;
+}
